@@ -1,4 +1,4 @@
-# Diggy World Expansion Plan (E0–E6)
+# ExpoRush Expansion Plan (E0–E6)
 
 The post-AAA expansion wave: ARPG-style progression and HUD, maps, inventory depth, multiplayer
 social systems, and world content — kept cozy and kid-friendly (~11-year-old audience). Live

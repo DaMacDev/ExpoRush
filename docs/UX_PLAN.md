@@ -1,4 +1,4 @@
-# Diggy World UI/UX Plan (E8)
+# ExpoRush UI/UX Plan (E8)
 
 The UI/UX overhaul wave: window chrome + procedural backgrounds, richer iconography, a rich
 tooltip/item-card system, context menus, input/chat polish, a menus/lobby/settings restyle, HUD

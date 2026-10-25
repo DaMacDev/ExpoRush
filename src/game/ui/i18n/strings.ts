@@ -10,7 +10,7 @@ import { Localizer } from "../../application/i18n/Localizer";
 
 export const UI_STRINGS: Catalog = {
   en: {
-    "app.title": "Diggy World",
+    "app.title": "ExpoRush",
 
     "menu.solo": "Solo (offline)",
     "menu.online": "Online",
@@ -22,7 +22,7 @@ export const UI_STRINGS: Catalog = {
     "credits.title": "Credits",
     "credits.tech": "Built with",
     "credits.assets": "Third-party assets",
-    "credits.madeWith": "Made with Diggy World's own procedural engine (LAAS) and Claude Code.",
+    "credits.madeWith": "Made with ExpoRush's own procedural engine (LAAS) and Claude Code.",
     "credits.back": "Back",
 
     "settings.title": "Settings",
@@ -593,7 +593,7 @@ export const UI_STRINGS: Catalog = {
     "buffStrip.chip.debuff.aria": "{name} (debuff), {time} remaining",
   },
   es: {
-    "app.title": "Diggy World",
+    "app.title": "ExpoRush",
 
     "menu.solo": "Individual (sin conexión)",
     "menu.online": "En línea",
@@ -605,7 +605,7 @@ export const UI_STRINGS: Catalog = {
     "credits.title": "Créditos",
     "credits.tech": "Hecho con",
     "credits.assets": "Recursos de terceros",
-    "credits.madeWith": "Hecho con el motor procedural propio de Diggy World (LAAS) y Claude Code.",
+    "credits.madeWith": "Hecho con el motor procedural propio de ExpoRush (LAAS) y Claude Code.",
     "credits.back": "Atrás",
 
     "settings.title": "Ajustes",
@@ -1176,7 +1176,7 @@ export const UI_STRINGS: Catalog = {
     "buffStrip.chip.debuff.aria": "{name} (penalización), quedan {time}",
   },
   da: {
-    "app.title": "Diggy World",
+    "app.title": "ExpoRush",
 
     "menu.solo": "Solo (offline)",
     "menu.online": "Online",
@@ -1188,7 +1188,7 @@ export const UI_STRINGS: Catalog = {
     "credits.title": "Credits",
     "credits.tech": "Lavet med",
     "credits.assets": "Tredjeparts-ressourcer",
-    "credits.madeWith": "Lavet med Diggy Worlds egen procedurelle motor (LAAS) og Claude Code.",
+    "credits.madeWith": "Lavet med ExpoRush's egen procedurelle motor (LAAS) og Claude Code.",
     "credits.back": "Tilbage",
 
     "settings.title": "Indstillinger",

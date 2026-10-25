@@ -1,5 +1,5 @@
 /**
- * Wordmark (Workstream 10.1) — the game's procedural logo: "Diggy World" set
+ * Wordmark (Workstream 10.1) — the game's procedural logo: "ExpoRush" set
  * in the system font stack with a theme-accent gradient fill and a small
  * chevron/pickaxe-notch mark, built entirely from SVG `<text>` + `<path>`
  * primitives authored here (zero image/font-file assets, per the

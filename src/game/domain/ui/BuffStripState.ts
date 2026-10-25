@@ -5,7 +5,7 @@
  * mirroring `AttackMeter.ts`/`CastBar.ts`'s "hidden when there's nothing
  * useful to show" posture rather than `PartyPanel`'s keybound show/hide.
  *
- * Standing deferral (see docs/UX_PLAN.md): Diggy World has no buff/status-
+ * Standing deferral (see docs/UX_PLAN.md): ExpoRush has no buff/status-
  * effect system yet — `AbilityRegistry.ts`'s Frost Puff/Vine Snare doc
  * comments explicitly note their slow/root flavor is "a status-effect system
  * not yet built". This module is the renderer-free input contract a future
