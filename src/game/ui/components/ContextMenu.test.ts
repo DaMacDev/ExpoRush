@@ -1,6 +1,6 @@
 // @vitest-environment happy-dom
-import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import type { ItemAction } from "../../domain/ui/ItemActions";
+import { afterEach, beforeEach, describe, expect, it, vi, type Mock } from "vitest";
+import type { ItemAction, ItemActionId } from "../../domain/ui/ItemActions";
 import { createLocalizer } from "../i18n/strings";
 import { attachContextMenu } from "./ContextMenu";
 
@@ -189,7 +189,7 @@ describe("ContextMenu", () => {
 
   describe("once open", () => {
     let anchor: HTMLButtonElement;
-    let onSelect: ReturnType<typeof vi.fn>;
+    let onSelect: Mock<(id: ItemActionId) => void>;
     let menu: ReturnType<typeof attachContextMenu>;
 
     beforeEach(() => {
