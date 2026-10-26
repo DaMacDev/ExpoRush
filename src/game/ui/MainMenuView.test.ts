@@ -45,7 +45,7 @@ describe("MainMenuView", () => {
 
   it("renders the wordmark and a decorative backdrop", () => {
     const { el } = build();
-    expect(el.querySelector(".lw-wordmark")?.getAttribute("aria-label")).toBe("Diggy World");
+    expect(el.querySelector(".lw-wordmark")?.getAttribute("aria-label")).toBe("ExpoRush");
     expect(el.querySelector(".lw-menu-backdrop")).toBeTruthy();
   });
 

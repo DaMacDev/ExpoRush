@@ -1,22 +1,20 @@
-# Progress — Diggy World (survival sandbox on LAAS)
+# Progress — ExpoRush (survival sandbox on LAAS)
 
-> **Name:** the game is **Diggy World** (renamed 2026-07-19 from the `minecraft3d` working title —
-> placeholder + trademark risk). Player-facing name done: menu `app.title`, `<title>`, PWA manifest.
-> The GitHub repo slug, the `/minecraft3d/` deploy path + live URL, and the trystero `APP_ID`
-> (`vodkadav-minecraft3d`) still carry the old identifier — those are coupled to the public URL and a
-> GitHub repo rename, deferred to an explicit owner decision (they break the current live link).
+> **Name:** the game is **ExpoRush** (2026-10-25; was `Diggy World`, originally the `minecraft3d` working
+> title). Engine stays **LAAS**. Deploy path `/ExpoRush/`; GitHub repo rename happens at landing. The trystero
+> `APP_ID` (`vodkadav-minecraft3d`) is kept so existing rooms stay compatible.
 
-Building a free, desktop-first-with-mobile-PWA Minecraft-style survival game on the LAAS procedural
+Building a free, desktop-first-with-mobile-PWA procedural survival game on the LAAS procedural
 WebGPU engine. Plan: [`docs/IMPLEMENTATION_PLAN.md`](docs/IMPLEMENTATION_PLAN.md) ·
 Research: [`docs/research/BUILD_ON_LAAS_RESEARCH.md`](docs/research/BUILD_ON_LAAS_RESEARCH.md).
 
-Live: https://damacdev.github.io/minecraft3d/ (desktop Chrome + WebGPU).
+Live: https://damacdev.github.io/ExpoRush/ (desktop Chrome + WebGPU).
 
 ## Status
 
 - [x] Deep-research pass (mobile PWA, free multiplayer, hybrid voxel terrain, spawning, creatures, persistence, CI/CD)
 - [x] Implementation plan recorded in repo (milestones M0–M8, tagged Opus-now / Fable-complex / research-first)
-- [x] Repo connected to DaMacDev/minecraft3d (origin); upstream kept for provenance
+- [x] Repo connected to DaMacDev/ExpoRush (origin); upstream kept for provenance
 - [x] CI gate (typecheck + build) — green
 - [x] Deploy to GitHub Pages (free) — live
 - [x] M0.4 ESLint blocking in CI (2026-07-06: flat config, js+ts recommended, --max-warnings 0,
@@ -155,7 +153,7 @@ item re-verified by the orchestrator (full `npm run ci` + diff inspection), not 
   intent path; persists through reload (GameStatePersistence)
 - [x] W9 Perf & pacing: F4 perf HUD (p50/p95/p99), GC-hitch fixes in per-frame paths, branded
   loading screen for the ~48 s boot, streaming pop-in grow-in
-- [x] W10 Presentation: procedural Diggy World wordmark + menu backdrop, credits (EN/ES/DA),
+- [x] W10 Presentation: procedural ExpoRush wordmark + menu backdrop, credits (EN/ES/DA),
   first-run pulse, menu/lobby/settings theme sweep
 - [x] Security review of all new intent-path mutations — done 2026-07-19; material findings fixed
   in 6f03bf8: inventory-touching placeable actions gated off the wire until a host-side
@@ -172,7 +170,7 @@ menu backdrop, engine-side terrain/vegetation pop-in.
 
 ## Expansion
 
-Diggy World expansion wave (plan: [`docs/EXPANSION_PLAN.md`](docs/EXPANSION_PLAN.md)), executed
+ExpoRush expansion wave (plan: [`docs/EXPANSION_PLAN.md`](docs/EXPANSION_PLAN.md)), executed
 2026-07-19/20 as security-reviewed, orchestrator-verified slices (full `npm run ci` + diff
 inspection per merge; mandatory `claude-infra:security` review on every networking-touching slice):
 

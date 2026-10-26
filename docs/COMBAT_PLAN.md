@@ -1,4 +1,4 @@
-# Diggy World Combat Plan (E7)
+# ExpoRush Combat Plan (E7)
 
 The combat & encounters wave: weapon variety, ranged + ammo, whimsical spells, AoE "booms,"
 deployable traps/mines/grenades, monster abilities, defeat VFX, and difficulty-scaled loot — every

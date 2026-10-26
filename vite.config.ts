@@ -10,8 +10,8 @@ export default defineConfig(({ command }) => ({
       registerType: "autoUpdate",
       includeAssets: ["icons/icon-192.png", "icons/icon-512.png"],
       manifest: {
-        name: "Diggy World — Procedural Survival Sandbox",
-        short_name: "Diggy World",
+        name: "ExpoRush — Procedural Survival Sandbox",
+        short_name: "ExpoRush",
         description:
           "A free, procedural survival sandbox in the browser (WebGPU): dig, build, craft, tame, and explore. Desktop-first, installable.",
         display: "standalone",
@@ -51,5 +51,5 @@ export default defineConfig(({ command }) => ({
   esbuild: {
     target: "esnext",
   },
-  base: command === "build" ? "/minecraft3d/" : "/",
+  base: command === "build" ? "/ExpoRush/" : "/",
 }));

@@ -1,4 +1,4 @@
-# AAA Polish & Native Analysis — Diggy World
+# AAA Polish & Native Analysis — ExpoRush
 
 > **Purpose:** a self-contained brief another LLM can execute against without prior context.
 > It answers the native-vs-web question, defines what "feels like a AAA game" concretely
@@ -449,7 +449,7 @@ first-run.
 its absence is the most obvious "unfinished" signal.
 
 **Tasks.**
-- **10.1 [O]** **Logo + wordmark** — the game is named **Diggy World** (player-facing rename done
+- **10.1 [O]** **Logo + wordmark** — the game is named **ExpoRush** (player-facing rename done
   2026-07-19: menu title, `<title>`, PWA manifest). Remaining: generate a logo/wordmark (procedural or
   `assetfactory` image, provenance recorded), and — a separate owner-gated infra step — migrate the
   `minecraft3d` identifier layer (repo slug, `/minecraft3d/` deploy base + live URL, trystero `APP_ID`)

@@ -9,7 +9,7 @@ import { spawn, type ChildProcess } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { chromium } from 'playwright';
 
-const URL = 'http://localhost:5174/minecraft3d/';
+const URL = 'http://localhost:5174/ExpoRush/';
 
 async function waitUp(): Promise<void> {
   for (let i = 0; i < 60; i++) {
@@ -37,7 +37,7 @@ async function stop(server: ChildProcess): Promise<void> {
 }
 
 async function main(): Promise<void> {
-  const server = spawn('npx vite preview --base /minecraft3d/ --port 5174 --strictPort', { shell: true, stdio: 'ignore' });
+  const server = spawn('npx vite preview --base /ExpoRush/ --port 5174 --strictPort', { shell: true, stdio: 'ignore' });
   const failures: string[] = [];
   const html = readFileSync('dist/index.html', 'utf8');
   for (const q of ['prefers-color-scheme', 'prefers-reduced-motion']) {

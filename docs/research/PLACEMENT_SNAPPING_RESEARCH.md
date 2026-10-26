@@ -165,7 +165,7 @@ occupancy grid (domain data from M8.1), so we stay pure.
 Sources: Rapier docs (kinematic vs dynamic bodies), Rust building guide (rule-based stability).
 
 ### Recommendation (trade-offs)
-> **For this Minecraft-style survival sandbox with a swappable-asset ethos: kinematic snap-and-stay, with
+> **For this procedural survival sandbox with a swappable-asset ethos: kinematic snap-and-stay, with
 > rule-based support checks in the domain. Do NOT reach for Rapier/cannon-es for building.**
 >
 > - **Kinematic snap-and-stay [recommended]** — Pros: **deterministic** (essential for the M7 P2P

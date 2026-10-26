@@ -3,7 +3,7 @@
  * (the number a recipe gates against, `domain/items/ItemDefinition`) onto the
  * five-step visual rarity scale from the E8.0 contract (`ui/theme/tokens.ts`).
  *
- * Diggy World items carry no explicit rarity field yet, so `tier` is the
+ * ExpoRush items carry no explicit rarity field yet, so `tier` is the
  * honest proxy: a tier-0 gathered material reads common, a tier-4 capstone
  * reads legendary. This is the single source every rarity-keyed icon/tooltip
  * uses, so a real per-item rarity field (a future content pass) only has to

@@ -6,7 +6,7 @@ streaming) conventions where they apply to wire-touching UI; builds on the exist
 
 ## Context
 
-Pre-E8, Diggy World's UI is functionally complete but visually thin: panels are flat
+Pre-E8, ExpoRush's UI is functionally complete but visually thin: panels are flat
 `bg-panel` rectangles with no depth, item icons are first-letter SVG glyphs
 (`ui/icons/ItemIconSpec.ts`), tooltips are a single line (`ui/components/Tooltip.ts`), and the only
 item interaction beyond click is a hardcoded right-click *stack split* in

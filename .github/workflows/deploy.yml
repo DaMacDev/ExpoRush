@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 # Publishes the built Vite PWA to GitHub Pages (free static hosting).
 # Requires: repo Settings → Pages → Source = "GitHub Actions" (one-time manual step).
-# The Vite `base` is set to "/minecraft3d/" so asset paths resolve at
-# https://damacdev.github.io/minecraft3d/.
+# The Vite `base` is set to "/ExpoRush/" so asset paths resolve at
+# https://damacdev.github.io/ExpoRush/.
 
 on:
   push:
