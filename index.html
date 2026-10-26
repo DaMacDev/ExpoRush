@@ -81,7 +81,14 @@
         100% { transform: translateX(100%); }
       }
       @media (prefers-reduced-motion: reduce) {
+        #boot, #boot .bar > div { transition: none; }
         #boot .bar > div::after { animation: none; }
+      }
+      @media (prefers-color-scheme: light) {
+        html, body { background: #eef2f0; }
+        #boot { color: #3f5249; }
+        #boot .title { color: #1d2a25; }
+        #boot .bar { background: #c9d4cf; }
       }
     </style>
   </head>

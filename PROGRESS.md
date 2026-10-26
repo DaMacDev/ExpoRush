@@ -10,13 +10,13 @@ Building a free, desktop-first-with-mobile-PWA Minecraft-style survival game on 
 WebGPU engine. Plan: [`docs/IMPLEMENTATION_PLAN.md`](docs/IMPLEMENTATION_PLAN.md) ·
 Research: [`docs/research/BUILD_ON_LAAS_RESEARCH.md`](docs/research/BUILD_ON_LAAS_RESEARCH.md).
 
-Live: https://vodkadav.github.io/minecraft3d/ (desktop Chrome + WebGPU).
+Live: https://damacdev.github.io/minecraft3d/ (desktop Chrome + WebGPU).
 
 ## Status
 
 - [x] Deep-research pass (mobile PWA, free multiplayer, hybrid voxel terrain, spawning, creatures, persistence, CI/CD)
 - [x] Implementation plan recorded in repo (milestones M0–M8, tagged Opus-now / Fable-complex / research-first)
-- [x] Repo connected to Vodkadav/minecraft3d (origin); upstream kept for provenance
+- [x] Repo connected to DaMacDev/minecraft3d (origin); upstream kept for provenance
 - [x] CI gate (typecheck + build) — green
 - [x] Deploy to GitHub Pages (free) — live
 - [x] M0.4 ESLint blocking in CI (2026-07-06: flat config, js+ts recommended, --max-warnings 0,

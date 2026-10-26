@@ -45,7 +45,7 @@ desktop-first-with-mobile-PWA survival sandbox built additively on top of the LA
 (voxel dig/build terrain,
 crafting, spawning, creatures, taming, combat, and P2P multiplayer) — untouched LAAS engine code
 lives in `src/{core,render,gpu,world,sky,vegetation,debug}`, the game layer in
-`src/game/{domain,application,infrastructure,ui}`. Live: https://vodkadav.github.io/minecraft3d/
+`src/game/{domain,application,infrastructure,ui}`. Live: https://damacdev.github.io/minecraft3d/
 (desktop Chrome + WebGPU). Status and milestone log: [PROGRESS.md](PROGRESS.md).
 
 ## Installation
@@ -58,6 +58,12 @@ npm install
 
 ```
 npm run dev
+```
+
+Run the tests with `npm run test:run`; `npm run ci` runs lint, typecheck, tests, architecture check and build. `npm run check:polish` checks the built app for overflow and focus rings (needs `npm run build` first).
+
+```
+npm run test:run
 ```
 
 Open `http://localhost:5173` in Google Chrome 113 or newer on a desktop or laptop. Other Chromium-based browsers (Edge, Brave, Arc, Opera) should work too. Safari and Firefox are not supported — the engine is built and tested against Chrome's WebGPU implementation, and the page detects this before loading and says so. Mobile and tablet browsers get a notice recommending a computer. There is no WebGL fallback by design: if Chrome is present but WebGPU is unavailable, the page fails loudly with diagnostics and the exact things to check (hardware acceleration, `chrome://gpu`, browser version).
